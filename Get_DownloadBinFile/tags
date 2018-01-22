@@ -1,0 +1,48 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AddContent	main.c	/^static U8 AddContent[HEAD_SIZE] = {0}; \/\/用于存放新的bin文件头部数据$/;"	v	file:
+BUFF_SIZE	inc/global.h	19;"	d
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -Wall -O -g$/;"	m
+DEBUG	inc/global.h	14;"	d
+F	md5/md5.h	13;"	d
+FF	md5/md5.h	18;"	d
+G	md5/md5.h	14;"	d
+GG	md5/md5.h	24;"	d
+GLOBAL_H	inc/global.h	2;"	d
+GetFileSize	main.c	/^U32 GetFileSize(const char *path)$/;"	f
+H	md5/md5.h	15;"	d
+HEAD_SIZE	inc/global.h	21;"	d
+HH	md5/md5.h	30;"	d
+I	md5/md5.h	16;"	d
+II	md5/md5.h	36;"	d
+MD5	main.c	/^static U8 MD5[MD5_SIZE] = {0};         \/\/用于存放md5算法生成的摘要$/;"	v	file:
+MD5Decode	md5/md5.c	/^void MD5Decode(unsigned int *output,unsigned char *input,unsigned int len)  $/;"	f
+MD5Encode	md5/md5.c	/^void MD5Encode(unsigned char *output,unsigned int *input,unsigned int len)  $/;"	f
+MD5Final	md5/md5.c	/^void MD5Final(MD5_CTX *context,unsigned char digest[16])  $/;"	f
+MD5Init	md5/md5.c	/^void MD5Init(MD5_CTX *context)  $/;"	f
+MD5Transform	md5/md5.c	/^void MD5Transform(unsigned int state[4],unsigned char block[64])  $/;"	f
+MD5Update	md5/md5.c	/^void MD5Update(MD5_CTX *context,unsigned char *input,unsigned int inputlen)  $/;"	f
+MD5_CTX	md5/md5.h	/^}MD5_CTX;  $/;"	t	typeref:struct:__anon1
+MD5_H	md5/md5.h	2;"	d
+MD5_SIZE	inc/global.h	20;"	d
+OBJS	Makefile	/^OBJS = main.o .\/md5\/md5.o$/;"	m
+OUT_BIN_PATH	inc/global.h	17;"	d
+PADDING	md5/md5.c	/^unsigned char PADDING[]={0x80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,  $/;"	v
+ROTATE_LEFT	md5/md5.h	17;"	d
+S32	inc/global.h	/^typedef int 				S32;$/;"	t
+S64	inc/global.h	/^typedef long int 			S64;$/;"	t
+SRC_BIN_PATH	inc/global.h	16;"	d
+U16	inc/global.h	/^typedef unsigned short  	U16;$/;"	t
+U32	inc/global.h	/^typedef unsigned int    	U32;$/;"	t
+U64	inc/global.h	/^typedef unsigned long int 	U64;$/;"	t
+U8	inc/global.h	/^typedef unsigned char   	U8;$/;"	t
+buffer	md5/md5.h	/^    unsigned char buffer[64];     $/;"	m	struct:__anon1
+count	md5/md5.h	/^    unsigned int count[2];  $/;"	m	struct:__anon1
+file_size	main.c	/^static U32 file_size = 0;              \/\/用于存放原始bin文件大小$/;"	v	file:
+main	main.c	/^int main(void)$/;"	f
+state	md5/md5.h	/^    unsigned int state[4];  $/;"	m	struct:__anon1
